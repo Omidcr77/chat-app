@@ -22,7 +22,7 @@ cd chat-app
 ### 2. Install Dependencies
 Run the following command to install necessary packages:
 ```bash
-npm install
+npm install socket.io-client socket.io
 ```
 
 ### 3. Start the Server
