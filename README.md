@@ -1,16 +1,19 @@
-Command-Line Chat Application
+# Command-Line Chat Application
+
 A simple command-line chat application built with Node.js and Socket.io that enables real-time messaging between users. Each user connects to the server, chooses a username, and joins a shared chat room.
 
-Features
-Real-time messaging with multiple users
-Display of usernames upon joining, messaging, and disconnecting
-Minimalistic command-line interface for easy setup and usage
-Prerequisites
-Node.js installed (version 14 or higher recommended)
-Setup Instructions
-1. Clone the Repository
-bash
-Copy code
+## Features
+- Real-time messaging with multiple users
+- Display of usernames upon joining, messaging, and disconnecting
+- Minimalistic command-line interface for easy setup and usage
+
+## Prerequisites
+- Node.js installed (version 14 or higher recommended)
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/Omidcr77/chat-app.git
 cd chat-app
 2. Install Dependencies
@@ -47,10 +50,10 @@ Project Structure
 plaintext
 Copy code
 .
-├── server.js        # Server-side code to manage connections and broadcast messages
-├── client.js        # Client-side code to send/receive messages and manage the CLI
-├── package.json     # Dependencies and project metadata
-└── README.md        # Project documentation
+├── server.js       # Server-side code to manage connections and broadcast messages
+├── client.js       # Client-side code to send/receive messages and manage the CLI
+├── package.json    # Dependencies and project metadata
+└── README.md       # Project documentation
 Dependencies
 socket.io - For real-time WebSocket communication between server and clients
 socket.io-client - Client library to connect to the server
